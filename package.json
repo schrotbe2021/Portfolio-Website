@@ -1,0 +1,28 @@
+{
+  "name": "ben-schroth-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Ben Schroth",
+  "main": "app.js",
+  "dependencies": {
+    "embla-carousel": "^2.9.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "clean": "rm -rf dist/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schrotbe2021/Portfolio_Website.git"
+  },
+  "author": "Ben Schroth schrotbe2021@mountunion.edu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schrotbe2021/Portfolio_Website/issues"
+  },
+  "homepage": "https://github.com/schrotbe2021/Portfolio_Website#readme"
+}
