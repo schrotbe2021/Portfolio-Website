@@ -124,8 +124,8 @@ header {
 /*--------------ABOUT ME SECTION-------------------*/
 
 .about-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color:#EEE;
 }
 
@@ -149,9 +149,10 @@ header {
 }
 
 .about-me h2 {
+    width: 400px;
+    transform: translate(175px);
     font-size: 250%;
     color: #444;
-    transform: translate(20%);
     margin-bottom: 2%;
 }
 
@@ -160,7 +161,29 @@ header {
     height: 3px;
     background-color: var(--font-color);
     content: "";
-    width: 245px;
+    width: 240px;
     margin-top: 2%;
 }
 
+/*--------------ABOUT ME SECTION-------------------*/
+
+/*---------------PORTFOLIO----------------------*/
+
+.embla {
+    overflow: hidden;
+  }
+  
+  .embla__container {
+    display: flex;
+  }
+  
+  .embla__slide {
+    position: relative; /* Needed if loop: true */
+    flex: 0 0 100%; /* Choose any slide width */
+  }
+
+/*---------------PORTFOLIO----------------------*/
+
+.portfolio-section {
+    margin: 500px;
+}
