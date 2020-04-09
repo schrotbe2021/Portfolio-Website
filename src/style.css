@@ -11,10 +11,16 @@
     font-family: var(--font);
 }
 
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;;
+    background-color: #EEE;
+}
+
 /*-----------HOME PAGE--------------*/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(public/img/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(assets/background.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -123,12 +129,6 @@ header {
 
 /*--------------ABOUT ME SECTION-------------------*/
 
-.about-section {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-color:#EEE;
-}
-
 .me {
     padding-left: 200px;
 }
@@ -184,6 +184,3 @@ header {
 
 /*---------------PORTFOLIO----------------------*/
 
-.portfolio-section {
-    margin: 500px;
-}
