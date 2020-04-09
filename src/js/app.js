@@ -1,5 +1,7 @@
 import EmblaCarousel from 'embla-carousel'
 import { setUpPrevAndNextBtns } from './prevAndNextButtons'
+import { PhoneNumber } from './phoneContact'
+
 
 const emblaNode = document.querySelector('.embla')
 const options = { 
@@ -10,4 +12,7 @@ const prevButton = document.querySelector(".prevButton")
 const nextButton = document.querySelector(".nextButton")
 const embla = EmblaCarousel(emblaNode, options)
 
-setUpPrevAndNextBtns(prevButton, nextButton, embla);
+setUpPrevAndNextBtns(prevButton, nextButton, embla)
+
+
+PhoneNumber()
