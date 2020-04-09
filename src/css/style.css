@@ -1,6 +1,6 @@
 :root {
     --font-color: #1341bf;
-    --font-color-hover: #244fc4;
+    --font-color-hover: #345ac2;
     --font: "Lato", "Arial", sans-serif;
 }
 
@@ -17,6 +17,15 @@ section {
     padding-bottom: 80px;;
     background-color: #EEE;
 }
+
+h2 {
+    width: 400px;
+    font-size: 250%;
+    color: #444;
+    margin-bottom: 2%;
+    font-weight: 500;
+}
+
 
 /*-----------HOME PAGE--------------*/
 
@@ -112,10 +121,12 @@ header {
     }
 
     .main-text h2 {
+        width: 750px;
         font-size: 150%;
         margin-bottom: 1%;
         word-spacing: 10px;
         letter-spacing: 4px;
+        margin-left: 550px;
     }
 
     .main-text a {
@@ -142,7 +153,7 @@ header {
         width: 100%;
         text-align: center;
         margin-top: 775px;
-        color: rgba(255, 255, 255, 0.5)     
+        color: rgba(255, 255, 255, 0.5) ;    
     }
 
     .learn-more h3 {
@@ -181,11 +192,7 @@ header {
 }
 
 .about-me h2 {
-    width: 400px;
     transform: translate(175px);
-    font-size: 250%;
-    color: #444;
-    margin-bottom: 2%;
 }
 
 .about-me h2:after {
@@ -214,7 +221,18 @@ header {
     flex: 0 0 100%; /* Choose any slide width */
   }
 
-/*---------------PORTFOLIO----------------------*/
+.portfolio-title {
+    margin-left: 790px;
+}
+
+.portfolio-title:after {
+    display: block;
+    height: 3px;
+    background-color: var(--font-color);
+    content: "";
+    width: 55%;
+    margin-top: 2%;
+}
 
 .portfolio-button {
     border: none;
@@ -242,4 +260,90 @@ header {
 .left-arrow {
     margin-left: 250px;
     padding: 9px 20px 9px 15px;
+}
+
+/*---------------PORTFOLIO----------------------*/
+
+/*------------SOCIAL MEDIA & CONTACTS------------*/
+
+.social p {
+    margin: 0 10px 20px 10px; 
+    text-align: center;
+    color: #444;
+    line-height: 35px;
+    letter-spacing: .25px;
+}
+
+.contact-section .row {
+    margin: 75px 150px 0 150px;
+}
+
+.contact-section h2 {
+    width: 750px;
+    text-align: center;
+    margin-left: 550px;
+}
+
+.contact-section h2:after {
+    display: block;
+    height: 3px;
+    background-color: var(--font-color);
+    content: "";
+    width: 80%;
+    margin-left: 75px;
+    margin-top: 2%;
+}
+
+#phoneNum {
+    width: 500px;
+    margin-bottom: 57px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#phoneNum::selection {
+    background-color: transparent;
+}
+
+.center-icon {
+    width: 450px;
+}
+
+.center-icon i {
+    margin-left: 50%;
+}
+
+.icon {
+    color: #444;
+    font-size: 350%;
+    margin-bottom: 30px;
+}
+
+.center-icon .phone {
+    margin-left: 240px;
+}
+
+.twitter:hover {
+    color: #1da1f2;
+}
+
+.linkedin:hover {
+    color: #007bb5;
+}
+
+.phone:hover {
+    color: #00b200;
+    cursor: pointer;
+}
+
+.github:hover {
+    color: #555;
+}
+
+.instagram:hover {
+    color: #c32aa3;
+}
+
+.email:hover {
+    color: #0064c9
 }
