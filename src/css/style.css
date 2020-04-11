@@ -34,9 +34,12 @@ header {
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
     /*----------------NAVIGATION AND LOGO--------------------*/
+    
     .logo {
         float: left;
         height: 100px;
@@ -71,7 +74,7 @@ header {
     }
 
     .resume-button {
-        margin: 30px 0 0 850px;
+        margin: 33px 0 0 850px;
         padding: 10px 20px;
         border-radius: 10px;
         background-color: transparent;
@@ -85,6 +88,37 @@ header {
     .resume-button:hover {
         cursor: pointer;
         border-color: var(--font-color-hover);
+    }
+    
+
+    .sticky {
+        position: fixed;
+        background-color: #EEE;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .sticky .logo {
+        float: left;
+        height: 75px;
+        width: auto;
+        margin: 3px 30px 3px 15px;
+    }
+
+    .sticky .nav-items {
+        float: left;
+        list-style: none;
+        margin-top: 28px;
+    }
+
+    .sticky .nav-items li a {
+        padding-bottom: 23px;
+        color: #444;
+    }
+
+    .sticky .resume-button {
+        transform: translate(0, -15px);
+        color: #444;
     }
 
     /*----------------NAVIGATION AND LOGO--------------------*/
@@ -385,4 +419,29 @@ footer {
 .copyright p {
     text-align: center;
     font-size: 75%;
+}
+
+/* Animations */
+.js-about-picture {
+    opacity: 0;
+}
+
+.js-about-picture.animated {
+    opacity: 1;
+}
+
+.js-embla {
+    opacity: 0;
+}
+
+.js-embla.animated {
+    opacity: 1;
+}
+
+.js-social {
+    opacity: 0;
+}
+
+.js-social.animated {
+    opacity: 1;
 }

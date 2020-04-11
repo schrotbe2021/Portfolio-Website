@@ -13,6 +13,4 @@ const nextButton = document.querySelector(".nextButton")
 const embla = EmblaCarousel(emblaNode, options)
 
 setUpPrevAndNextBtns(prevButton, nextButton, embla)
-
-
 PhoneNumber()

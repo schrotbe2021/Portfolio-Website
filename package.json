@@ -4,7 +4,8 @@
   "description": "Portfolio website for Ben Schroth",
   "main": "app.js",
   "dependencies": {
-    "embla-carousel": "^2.9.0"
+    "embla-carousel": "^2.9.0",
+    "jquery": "^3.5.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
