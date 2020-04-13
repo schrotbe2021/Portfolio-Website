@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1440px) {
+    .logo {
+        height: 75px;
+        margin: 15px 30px 0 15px;
+    }
+
+    .nav-items {
+        margin-top: 40px;
+    }
+    
+    .resume-button {
+        margin: 0px 0 0 900px;
+        transform: translate(75px, -37px);
+    }
+
+    .me {
+        padding-left: 10%;
+    }
+
+    .about-me {
+        margin-left: 25%;
+    }
+
+    .me img {
+        height: 400px;
+        margin-top: 25%;
+        width: auto;
+    }
+
+    .about-me h2 {
+        font-size: 200%;
+    }
+
+    .about-me h2:after {
+        height: 2px
+    }
+
+    .about-me p {
+        font-size: 90%;
+    }
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+}
