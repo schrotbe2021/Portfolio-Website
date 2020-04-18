@@ -8,9 +8,8 @@
         margin-top: 40px;
     }
     
-    .resume-button {
-        margin: 0px 0 0 900px;
-        transform: translate(75px, -37px);
+    .resume-container {
+        margin-left: 300px;
     }
 
     .me {
@@ -19,12 +18,6 @@
 
     .about-me {
         margin-left: 25%;
-    }
-
-    .me img {
-        height: 400px;
-        margin-top: 25%;
-        width: auto;
     }
 
     .about-me h2 {
@@ -39,11 +32,64 @@
         font-size: 90%;
     }
 
+    .portfolio {
+        height: 500px;
+    }
+
+    .portfolio-image {
+        height: 55%;
+        margin: 20px 0 60px 75px;
+        width: auto;
+    }
+
+    .code-button {
+        color: white;
+        margin-left: 350px;
+    }
+
+    .right-arrow {
+        margin-left: 1125px;
+        padding: 9px 15px 9px 20px;
+    }
+    
+    .left-arrow {
+        margin-left: 200px;
+        padding: 9px 20px 9px 15px;
+    }
+
+    .center-icon .phone {
+        margin-left: 175px;
+    }
+
+    #phoneNum {
+        width: 350px;
+    }
+
 
 }
 
 @media only screen and (max-width: 1024px) {
+    .main-text h1 {
+        font-size: 300%;
+    }
 
+    .main-text h2 {
+        font-size: 100%;
+    }
+
+    .nav-items li a {
+        font-size: 18px;
+    }
+    
+    .about-me p {
+        font-size: 18px;
+        line-height: 140%;
+    }
+
+    .social p {
+        font-size: 18px;
+        line-height: 25px;
+    }
 }
 
 
