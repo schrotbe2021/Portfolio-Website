@@ -50,12 +50,12 @@ header {
     .nav-items {
         float: left;
         list-style: none;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .nav-items li {
         display: inline-block;
-        padding-right: 30px;
+        padding-right: 20px;
     }
 
     .nav-items li a {
@@ -73,23 +73,29 @@ header {
         transition: border-bottom .2s;
     }
 
-    #resume-link a {
-
-        padding: 10px 20px;
+    .resume-link {
+        padding: 10px 20px 10px 20px;
         border-radius: 10px;
         background-color: transparent;
         border: 2px solid var(--font-color);
-        color: white;
-        text-transform: uppercase;
-        font-weight: 300;
-        letter-spacing: 2px;
     }
 
-    #resume-link a:hover {
+    .resume-link:hover {
         background-color: var(--font-color-hover);
         border-color: var(--font-color-hover);
     }
 
+    .main-nav-mobile {
+        float: right;
+        margin-top: 15px;
+        margin-right: 15px;
+        cursor: pointer;
+        display: none;
+    }
+
+    .main-nav-mobile i {
+        color: white;
+    }
 
     .sticky {
         position: fixed;
@@ -311,7 +317,8 @@ header {
 }
 
 .center-icon i {
-    margin-left: 45%;
+    width: 100%;
+    text-align: center;
 }
 
 .icon {
@@ -320,8 +327,15 @@ header {
     margin-bottom: 30px;
 }
 
-.center-icon .phone {
-    margin-left: 240px;
+.center-icon .phone i {
+    width: 100%;
+    text-align: center;
+}
+
+#phoneNum {
+    width: 100%;
+    text-align: center;
+    margin: 40px 0;
 }
 
 .twitter:hover {
@@ -352,7 +366,7 @@ header {
 /*---------FOOTER----------*/
 footer {
     padding-top: 10px;
-    padding-bottom: 70px;
+    padding-bottom: 0;
     background-color: #444;
 }
 
@@ -379,11 +393,11 @@ footer {
 .copyright {
     display: block;
     color: #AAA;
-    transform: translate(-215px, 50px);
     width: 100%;
 }
 
 .copyright p {
+    margin-top: 50px;
     text-align: center;
     font-size: 75%;
 }

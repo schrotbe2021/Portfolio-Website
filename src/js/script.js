@@ -49,4 +49,11 @@ $(document).ready(function() {
     }, {
         offset: '500px;'
     });
+
+    /* Mobile nav */
+    $(".js-mobile-nav").click(function() {
+        var nav = $(".js-nav-items");
+
+        nav.slideToggle(200);
+    });
 });
